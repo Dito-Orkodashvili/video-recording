@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    height: 4.5rem;
+    border-bottom: 1px solid dimgray;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+}
+
+.asideLeft, .asideRight {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.asideLeft {
+    border-right: 1px solid dimgray;
+}
+
+.asideRight {
+    border-left: 1px solid dimgray;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    height: 5rem;
+    border-top: 1px solid dimgray;
+}

@@ -1,0 +1,27 @@
+.badge {
+    display: inline-block;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    font-size: 0.75rem;
+}
+
+.idle, .acquiring_media, .paused {
+    background-color: palevioletred;
+}
+
+.recording {
+    background-color: indianred;
+    animation: blinker 1s linear infinite;
+    -webkit-animation: blinker 1s linear infinite;
+}
+
+.stopped {
+    background-color: mediumseagreen;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
