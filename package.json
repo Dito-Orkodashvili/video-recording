@@ -23,6 +23,7 @@
   "dependencies": {
     "clsx": "^1.1.1",
     "preact": "^10.3.2",
+    "preact-render-to-string": "^5.1.19",
     "react-icons": "^4.2.0"
   }
 }
