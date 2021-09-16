@@ -12,7 +12,7 @@ const Controls = ({videoUrl, status, onRecordClick, onStopClick, onPauseClick, o
         {status === 'recording' && <PauseButton onClick={onPauseClick}/>}
         {(status === 'idle' || status === 'stopped') && <RecordButton onClick={onRecordClick}/>}
         {status === 'paused' && <StopButton onClick={onStopClick}/>}
-        {status === 'paused' && <ResumeButton onClick={onResumeClick}/>}
+        {status === 'paused' && <RecordButton onClick={onResumeClick}/>}
         {videoUrl && <a href={videoUrl} className={styles.downloadLink} download="recording">
             <FiDownload className={clsx(styles.icon, styles.iconDownload)}/>
         </a>}
