@@ -193,6 +193,7 @@ export function useRecorder({
         mediaBlobUrl,
         status,
         isAudioMuted,
+        getMediaStream,
         previewStream: mediaStream.current
             ? new MediaStream(mediaStream.current.getVideoTracks())
             : null,

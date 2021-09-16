@@ -7,7 +7,7 @@
 }
 
 .idle, .acquiring_media, .paused {
-    background-color: palevioletred;
+    background-color: #444444;
 }
 
 .recording {

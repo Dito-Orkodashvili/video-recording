@@ -1,9 +1,12 @@
-.wrapper, .videoWrapper {
-    width: 40rem;
+.wrapper {
+    width: 100%;
+    max-width: 60rem;
 }
 
 .videoWrapper {
-    height: 30rem;
+    width: 100%;
+    padding-top: 75%;
+    height: 0;
     position: relative;
     background-color: dimgrey;
     border-radius: 0.3rem 0.3rem 0 0;
@@ -13,6 +16,17 @@
 .video {
     width: 100%;
     height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.useCameraBtnWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
 }
 
 .statusWrapper {
