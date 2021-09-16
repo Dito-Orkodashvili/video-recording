@@ -6,7 +6,7 @@
 
 .header {
     height: 4.5rem;
-    border-bottom: 1px solid dimgray;
+    border-bottom: 1px solid #e3e3e3;
 }
 
 .content {
@@ -22,11 +22,11 @@
 }
 
 .asideLeft {
-    border-right: 1px solid dimgray;
+    border-right: 1px solid #e3e3e3;
 }
 
 .asideRight {
-    border-left: 1px solid dimgray;
+    border-left: 1px solid #e3e3e3;
 }
 
 .main {
@@ -39,5 +39,5 @@
 
 .footer {
     height: 5rem;
-    border-top: 1px solid dimgray;
+    border-top: 1px solid #e3e3e3;
 }
